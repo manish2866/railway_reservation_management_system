@@ -37,43 +37,6 @@ Website_code/
 
 ---
 
-## 🛠 Setup Instructions  
-
-### 1. Clone the Repository  
-```bash
-git clone <your-repo-url>
-cd Website_code
-```
-
-### 2. Install Dependencies  
-Ensure **Python 3.x** is installed.  
-```bash
-pip install flask pandas numpy
-```
-
-### 3. Set up the Database  
-Run the SQL schema in your MySQL/PostgreSQL/SQLite environment:  
-```sql
-source create.sql;
-```
-
-### 4. Generate Sample Data (Optional)  
-Run the Python script to generate CSV datasets:  
-```bash
-python data_generation.py
-```
-
-### 5. Run the Application  
-Start the Flask app:  
-```bash
-python app.py
-```
-
-The app will run on:  
-👉 `http://127.0.0.1:5000/`  
-
----
-
 ## 🚀 Usage  
 
 1. Open the app in your browser.  
